@@ -3,11 +3,13 @@ import React from 'react';
 function Contact() {
     return (
         <div id='contact'>
-            <h3>Send Me Mail</h3>
-            <div className='contact-input'>
-                <input type="email" placeholder='exmde@gmail.com' />
-                <a href='#'>Contact</a>
-            </div>
+            <h3>CONTACT US</h3>
+            <form>
+                <input type="text" placeholder='Full Name' required />
+                <input type="email" placeholder='Type Your E-Mail' required />
+                <textarea name="message" placeholder='Write Here....'></textarea>
+                <input type="submit" value="Send" />
+            </form>
         </div>
     )
 }

@@ -1,15 +1,20 @@
 import React from 'react';
 import FeatureBox from './FeatureBox';
-import featureimage1 from '../images/feature_1.png';
-import featureimage2 from '../images/feature_2.png';
-import featureimage3 from '../images/feature_3.png';
+import featureimage1 from '../images/1.svg';
+import featureimage2 from '../images/2.svg';
+import featureimage3 from '../images/3.svg';
+import featureimage4 from '../images/4.svg';
+
 function Feature() {
     return (
         <div id='features'>
+            <h1>FEATURES</h1>
             <div className='a-container'>
-                <FeatureBox image={featureimage1} title="Development Course"/>
-                <FeatureBox image={featureimage2} title="Money Saving Services"/>
-                <FeatureBox image={featureimage3} title="Usability Interface"/>
+                <FeatureBox image={featureimage1} title="WeightLifting"/>
+                <FeatureBox image={featureimage2} title="Specific Muscle"/>
+                <FeatureBox image={featureimage3} title="Flex Your Muscle"/>
+                <FeatureBox image={featureimage4} title="Cardio Exercise"/>
+                
             </div>
         </div>
     )
